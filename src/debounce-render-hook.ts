@@ -1,7 +1,5 @@
 import { options } from 'preact';
 
-import { isPreact10 } from './util';
-
 let hookInstalled = false;
 const pendingCallbacks = new Set();
 
